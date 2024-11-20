@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid #444;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.social-links a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  color: #ccc;
+}
+
+/* Content */
+.content {
+  padding: 40px;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.projects, .thoughts {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.project-list, .thought-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.project-list a, .thought-list a {
+  text-decoration: none;
+  color: #8a2be2;
+  font-size: 1.1rem;
+}
+
+.project-list a:hover, .thought-list a:hover {
+  text-decoration: underline;
+}
+
+.thought-list article {
+  margin-bottom: 15px;
+}
+
+.see-more {
+  color: #8a2be2;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #444;
+}
